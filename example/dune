@@ -1,0 +1,11 @@
+(library
+ (name example_lib)
+ (modules example_lib)
+ (lint
+  (pps linter)))
+
+(library
+ (name linter)
+ (kind ppx_rewriter)
+ (modules linter)
+ (libraries bene-gesselint ppxlib))

@@ -1,0 +1,4 @@
+(library
+ (name bene_gesselint)
+ (public_name bene-gesselint)
+ (libraries ppxlib))
