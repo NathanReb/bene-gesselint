@@ -1,5 +1,8 @@
 # Bene Gesselint
 
+*A secret project to produce a Kwisatz Haderach, perfect OCaml code that would bridge time and
+space, through selective breeding and linting. But mostly linting.*
+
 This is an experiment around linting OCaml code using `dune`'s `lint` field.
 
 The idea is to expose through a library an easy way to write `lint` rules over the OCaml AST
